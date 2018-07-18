@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xhs.bluetooth.MainActivity">
+
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询当前已配对设备" />
+
+    <Button
+        android:id="@+id/discovering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启监听发现新设备" />
+
+    <Button
+        android:id="@+id/search_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始搜索可发现设备" />
+    <Button
+        android:id="@+id/bluetooth_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="蓝牙状态改变监听" />
+    <Button
+        android:id="@+id/can_be_found"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本地蓝牙可发现模式" />
+    <Button
+        android:id="@+id/is_can_be_found"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册当前是否是可发现模式监听" />
+    <Button
+        android:id="@+id/start_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启客户端" />
+    <Button
+        android:id="@+id/start_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启服务端" />
+</LinearLayout>
